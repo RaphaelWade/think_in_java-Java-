@@ -4,10 +4,10 @@
 package chapter.two.section.eleven;
 
 public class ExerciseFour {
-    DateOnly date = new DateOnly();
+    DataOnly date = new DataOnly();
 }
 
-class DateOnly {
+class DataOnly {
     int i;
     double d;
     boolean b;
