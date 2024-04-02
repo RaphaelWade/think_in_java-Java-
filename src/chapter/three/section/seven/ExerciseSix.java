@@ -1,6 +1,6 @@
 /*
     问题：在练习5的基础上，创建一个新的Dog索引，并对其赋值为spot对象。测试用==和
-    equal()方法来比较所有引用的结果。
+    equals()方法来比较所有引用的结果。
  */
 package chapter.three.section.seven;
 
