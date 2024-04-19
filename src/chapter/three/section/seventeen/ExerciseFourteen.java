@@ -32,6 +32,7 @@ public class ExerciseFourteen {
 //        System.out.println(stringA <= stringB);
 //        System.out.println(stringA && stringB);
 //        System.out.println(stringA || stringB);
+//        System.out.println(stringA ! stringB);
 
         // 注意：==和!=比较的是对象的引用，equals()方法一般是用来比较对象的内容。
         System.out.println(stringA == stringB);
