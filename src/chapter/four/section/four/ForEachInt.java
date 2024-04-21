@@ -1,5 +1,5 @@
 /*
-    补充自p68：实现书上ForEachInt类中的range()方法以及它的重载形式。
+    补充自p68：实现书上ForEachInt类中的range()方法。
  */
 package chapter.four.section.four;
 
