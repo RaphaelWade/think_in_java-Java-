@@ -1,4 +1,4 @@
-package chapter.six.section.one.debug;
+package chapter.six.section.one.exercisethree.debug;
 
 public class ConditionalCompile {
     public static void debug(String[] args) {

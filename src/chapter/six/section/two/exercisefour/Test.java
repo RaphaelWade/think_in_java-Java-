@@ -1,4 +1,4 @@
-package chapter.six.section.one.exercisefour;
+package chapter.six.section.two.exercisefour;
 
 public class Test {
     protected void run() {
