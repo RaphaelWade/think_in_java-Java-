@@ -3,14 +3,14 @@
  */
 package chapter.seven.section.two;
 
-public class Exercisefour extends base {
-    Exercisefour() {
+public class ExerciseFour extends base {
+    ExerciseFour() {
         // 这里默认调用父类的构造器super()。
-        System.out.println("ExerciseThree constructor");
+        System.out.println("ExerciseFour constructor");
     }
 
     public static void main(String[] args) {
-        Exercisefour test = new Exercisefour();
+        ExerciseFour test = new ExerciseFour();
     }
 }
 
@@ -22,6 +22,6 @@ class base {
 /*
 输出：
     base constructor
-    ExerciseThree constructor
+    ExerciseFour constructor
 
  */
