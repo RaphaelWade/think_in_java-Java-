@@ -4,7 +4,7 @@
  */
 package chapter.nine.section.one;
 
-public class ExerciseNine {
+public class ExerciseOne {
     public static void main(String[] args) {
         Rodent[] rodents = {
                 new Mouse(),
