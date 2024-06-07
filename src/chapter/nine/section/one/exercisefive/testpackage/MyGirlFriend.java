@@ -11,7 +11,7 @@ public class MyGirlFriend implements BestFriend {
 
     @Override
     public void laugh() {
-        System.out.println("She like laughing.");
+        System.out.println("She likes laughing.");
     }
 
     @Override
