@@ -1,6 +1,6 @@
-package chapter.nine.section.one.exercisefive.testpackage;
+package chapter.nine.section.two.exercisefive.testpackage;
 
-import chapter.nine.section.one.exercisefive.BestFriend;
+import chapter.nine.section.two.exercisefive.BestFriend;
 
 public class MyGirlFriend implements BestFriend {
 
