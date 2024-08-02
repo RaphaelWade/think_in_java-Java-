@@ -5,8 +5,8 @@ package chapter.nine.section.nine.exercisenineteen;
 
 public class Functions {
     public static void implementFunctions(FunctionFactory FunctionFactory) {
-        Function Function = FunctionFactory.getFunction();
-        Function.implementFunction();
+        Function function = FunctionFactory.getFunction();
+        function.implementFunction();
     }
 
     public static void main(String[] args) {
