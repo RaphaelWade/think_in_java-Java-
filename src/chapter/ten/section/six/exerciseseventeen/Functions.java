@@ -1,7 +1,7 @@
 /*
-    问题：使用工厂方法来创建一个框架，它可以执行抛硬币和掷骰子功能。
+    问题：修改第9章中练习19的解决方案，让它使用匿名内部类。
  */
-package chapter.nine.section.nine.exercisenineteen;
+package chapter.ten.section.six.exerciseseventeen;
 
 public class Functions {
     public static void implementFunctions(FunctionFactory FunctionFactory) {
@@ -10,8 +10,8 @@ public class Functions {
     }
 
     public static void main(String[] args) {
-        implementFunctions(new CoinTossFunctionFactory());
-        implementFunctions(new DiceRollingFunctionFactory());
+        implementFunctions(CoinTossFunction.factory);
+        implementFunctions(DiceRollingFunction.factory);
     }
 }
 
@@ -29,14 +29,13 @@ class CoinTossFunction implements Function {
     public void implementFunction() {
         System.out.println("Toss coins.");
     }
-}
 
-class CoinTossFunctionFactory implements FunctionFactory {
-
-    @Override
-    public Function getFunction() {
-        return new CoinTossFunction();
-    }
+    public static FunctionFactory factory = new FunctionFactory() {
+        @Override
+        public Function getFunction() {
+            return new CoinTossFunction();
+        }
+    };
 }
 
 class DiceRollingFunction implements Function {
@@ -45,14 +44,13 @@ class DiceRollingFunction implements Function {
     public void implementFunction() {
         System.out.println("Roll the dice.");
     }
-}
 
-class DiceRollingFunctionFactory implements FunctionFactory {
-
-    @Override
-    public Function getFunction() {
-        return new DiceRollingFunction();
-    }
+    public static FunctionFactory factory = new FunctionFactory() {
+        @Override
+        public Function getFunction() {
+            return new DiceRollingFunction();
+        }
+    };
 }
 /*
 输出：
